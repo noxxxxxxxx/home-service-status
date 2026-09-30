@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b20">
+  <title>家庭服务状态</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div class="eyebrow"><span class="signal"></span> SERVICE STATUS</div>
+      <h1>家庭服务状态</h1>
+      <p>从外部网络检查公开入口与关键 JavaScript 资源。</p>
+    </header>
+
+    <section class="summary" aria-live="polite">
+      <div>
+        <span class="section-label">当前状态</span>
+        <h2 id="overall">正在读取监测结果…</h2>
+      </div>
+      <div class="updated">
+        <span class="section-label">最近检查</span>
+        <time id="checked-at">—</time>
+      </div>
+    </section>
+
+    <section aria-labelledby="services-title">
+      <div class="section-heading">
+        <h2 id="services-title">服务</h2>
+        <span>最近 24 小时</span>
+      </div>
+      <div id="services" class="service-list"></div>
+    </section>
+
+    <footer>每 15 分钟计划检查一次。结果代表监测节点当时的网络访问情况。</footer>
+  </main>
+</body>
+</html>
