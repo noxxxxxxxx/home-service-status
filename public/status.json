@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-09-30T04:40:12Z",
+  "services": [
+    {
+      "id": "penpot",
+      "name": "Penpot",
+      "url": "https://penpot.noxxxx.com/",
+      "up": true,
+      "checks": {
+        "page": {
+          "ok": true,
+          "http": 200,
+          "bytes": 283200,
+          "seconds": 3.01,
+          "detail": "正常"
+        },
+        "javascript": {
+          "ok": true,
+          "http": 206,
+          "bytes": 262144,
+          "seconds": 3.69,
+          "detail": "正常"
+        }
+      }
+    },
+    {
+      "id": "sonar",
+      "name": "SonarQube",
+      "url": "https://sonar.noxxxx.com/",
+      "up": true,
+      "checks": {
+        "page": {
+          "ok": true,
+          "http": 200,
+          "bytes": 1620,
+          "seconds": 1.84,
+          "detail": "正常"
+        },
+        "javascript": {
+          "ok": true,
+          "http": 206,
+          "bytes": 262144,
+          "seconds": 4.61,
+          "detail": "正常"
+        }
+      }
+    }
+  ]
+}
