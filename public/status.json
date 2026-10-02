@@ -1,25 +1,25 @@
 {
-  "checkedAt": "2026-10-02T15:04:26Z",
+  "checkedAt": "2026-10-02T19:54:11Z",
   "services": [
     {
       "id": "penpot",
       "name": "Penpot",
       "url": "https://penpot.noxxxx.com/",
-      "up": true,
+      "up": false,
       "checks": {
         "page": {
-          "ok": true,
-          "http": 200,
-          "bytes": 283200,
-          "seconds": 3.37,
-          "detail": "正常"
+          "ok": false,
+          "http": 502,
+          "bytes": 150,
+          "seconds": 0.7,
+          "detail": "HTTP 502"
         },
         "javascript": {
-          "ok": true,
-          "http": 206,
-          "bytes": 262144,
-          "seconds": 10.21,
-          "detail": "正常"
+          "ok": false,
+          "http": 502,
+          "bytes": 150,
+          "seconds": 0.6,
+          "detail": "HTTP 502"
         }
       }
     },
@@ -27,21 +27,21 @@
       "id": "sonar",
       "name": "SonarQube",
       "url": "https://sonar.noxxxx.com/",
-      "up": true,
+      "up": false,
       "checks": {
         "page": {
-          "ok": true,
-          "http": 200,
-          "bytes": 1620,
-          "seconds": 2.23,
-          "detail": "正常"
+          "ok": false,
+          "http": 502,
+          "bytes": 150,
+          "seconds": 0.67,
+          "detail": "HTTP 502"
         },
         "javascript": {
-          "ok": true,
-          "http": 206,
-          "bytes": 262144,
-          "seconds": 2.43,
-          "detail": "正常"
+          "ok": false,
+          "http": 0,
+          "bytes": 0,
+          "seconds": 0,
+          "detail": "未找到主脚本"
         }
       }
     }
