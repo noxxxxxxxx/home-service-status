@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T02:30:28Z",
+  "checkedAt": "2026-10-09T09:33:27Z",
   "services": [
     {
       "id": "penpot",
@@ -11,14 +11,14 @@
           "ok": false,
           "http": 502,
           "bytes": 150,
-          "seconds": 0.79,
+          "seconds": 0.57,
           "detail": "HTTP 502"
         },
         "javascript": {
           "ok": false,
           "http": 502,
           "bytes": 150,
-          "seconds": 0.59,
+          "seconds": 0.53,
           "detail": "HTTP 502"
         }
       }
@@ -33,7 +33,7 @@
           "ok": false,
           "http": 502,
           "bytes": 150,
-          "seconds": 1.09,
+          "seconds": 0.67,
           "detail": "HTTP 502"
         },
         "javascript": {
