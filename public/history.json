@@ -328,5 +328,10 @@
     "time": "2026-10-14T01:47:57Z",
     "penpot": true,
     "sonar": true
+  },
+  {
+    "time": "2026-10-14T06:45:09Z",
+    "penpot": false,
+    "sonar": false
   }
 ]
