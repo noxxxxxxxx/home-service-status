@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-21T00:05:01Z",
+  "checkedAt": "2026-10-21T04:34:47Z",
   "services": [
     {
       "id": "penpot",
@@ -11,14 +11,14 @@
           "ok": true,
           "http": 200,
           "bytes": 283200,
-          "seconds": 2.54,
+          "seconds": 3.21,
           "detail": "正常"
         },
         "javascript": {
           "ok": true,
           "http": 206,
           "bytes": 262144,
-          "seconds": 2.43,
+          "seconds": 3.03,
           "detail": "正常"
         }
       }
@@ -27,21 +27,21 @@
       "id": "sonar",
       "name": "SonarQube",
       "url": "https://sonar.noxxxx.com/",
-      "up": false,
+      "up": true,
       "checks": {
         "page": {
           "ok": true,
           "http": 200,
           "bytes": 1620,
-          "seconds": 1.45,
+          "seconds": 1.19,
           "detail": "正常"
         },
         "javascript": {
-          "ok": false,
+          "ok": true,
           "http": 206,
-          "bytes": 130305,
-          "seconds": 25.0,
-          "detail": "资源下载不完整或超时"
+          "bytes": 262144,
+          "seconds": 5.51,
+          "detail": "正常"
         }
       }
     }
