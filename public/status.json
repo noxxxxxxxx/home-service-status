@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-23T05:56:23Z",
+  "checkedAt": "2026-10-23T11:28:38Z",
   "services": [
     {
       "id": "penpot",
@@ -11,14 +11,14 @@
           "ok": true,
           "http": 200,
           "bytes": 283200,
-          "seconds": 2.53,
+          "seconds": 2.56,
           "detail": "正常"
         },
         "javascript": {
           "ok": true,
           "http": 206,
           "bytes": 262144,
-          "seconds": 2.39,
+          "seconds": 2.09,
           "detail": "正常"
         }
       }
@@ -33,14 +33,14 @@
           "ok": true,
           "http": 200,
           "bytes": 1620,
-          "seconds": 1.12,
+          "seconds": 2.0,
           "detail": "正常"
         },
         "javascript": {
           "ok": true,
           "http": 206,
           "bytes": 262144,
-          "seconds": 3.77,
+          "seconds": 5.56,
           "detail": "正常"
         }
       }
