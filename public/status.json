@@ -1,25 +1,25 @@
 {
-  "checkedAt": "2026-10-25T13:57:47Z",
+  "checkedAt": "2026-10-25T17:35:40Z",
   "services": [
     {
       "id": "penpot",
       "name": "Penpot",
       "url": "https://penpot.noxxxx.com/",
-      "up": true,
+      "up": false,
       "checks": {
         "page": {
-          "ok": true,
-          "http": 200,
-          "bytes": 283200,
-          "seconds": 4.26,
-          "detail": "正常"
+          "ok": false,
+          "http": 502,
+          "bytes": 150,
+          "seconds": 0.69,
+          "detail": "HTTP 502"
         },
         "javascript": {
-          "ok": true,
-          "http": 206,
-          "bytes": 262144,
-          "seconds": 3.28,
-          "detail": "正常"
+          "ok": false,
+          "http": 502,
+          "bytes": 150,
+          "seconds": 2.22,
+          "detail": "HTTP 502"
         }
       }
     },
@@ -33,14 +33,14 @@
           "ok": true,
           "http": 200,
           "bytes": 1620,
-          "seconds": 0.9,
+          "seconds": 1.32,
           "detail": "正常"
         },
         "javascript": {
           "ok": true,
           "http": 206,
           "bytes": 262144,
-          "seconds": 3.6,
+          "seconds": 18.24,
           "detail": "正常"
         }
       }
