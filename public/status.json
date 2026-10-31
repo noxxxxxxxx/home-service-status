@@ -1,25 +1,25 @@
 {
-  "checkedAt": "2026-10-31T08:47:43Z",
+  "checkedAt": "2026-10-31T14:50:03Z",
   "services": [
     {
       "id": "penpot",
       "name": "Penpot",
       "url": "https://penpot.noxxxx.com/",
-      "up": false,
+      "up": true,
       "checks": {
         "page": {
-          "ok": false,
+          "ok": true,
           "http": 200,
-          "bytes": 146986,
-          "seconds": 13.27,
-          "detail": "资源下载不完整或超时"
+          "bytes": 283200,
+          "seconds": 7.53,
+          "detail": "正常"
         },
         "javascript": {
-          "ok": false,
-          "http": 502,
-          "bytes": 150,
-          "seconds": 0.77,
-          "detail": "HTTP 502"
+          "ok": true,
+          "http": 206,
+          "bytes": 262144,
+          "seconds": 7.47,
+          "detail": "正常"
         }
       }
     },
@@ -33,14 +33,14 @@
           "ok": true,
           "http": 200,
           "bytes": 1620,
-          "seconds": 1.24,
+          "seconds": 1.28,
           "detail": "正常"
         },
         "javascript": {
           "ok": true,
           "http": 206,
           "bytes": 262144,
-          "seconds": 6.77,
+          "seconds": 5.24,
           "detail": "正常"
         }
       }
