@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T18:19:24Z",
+  "checkedAt": "2026-11-05T23:43:21Z",
   "services": [
     {
       "id": "penpot",
@@ -11,14 +11,14 @@
           "ok": false,
           "http": 0,
           "bytes": 0,
-          "seconds": 0.55,
+          "seconds": 0.28,
           "detail": "连接失败"
         },
         "javascript": {
           "ok": false,
           "http": 0,
           "bytes": 0,
-          "seconds": 0.22,
+          "seconds": 0.24,
           "detail": "连接失败"
         }
       }
@@ -33,7 +33,7 @@
           "ok": false,
           "http": 0,
           "bytes": 0,
-          "seconds": 0.48,
+          "seconds": 0.27,
           "detail": "连接失败"
         },
         "javascript": {
