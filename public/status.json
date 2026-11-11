@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T09:33:50Z",
+  "checkedAt": "2026-11-11T17:24:42Z",
   "services": [
     {
       "id": "penpot",
@@ -11,14 +11,14 @@
           "ok": false,
           "http": 502,
           "bytes": 150,
-          "seconds": 0.91,
+          "seconds": 0.66,
           "detail": "HTTP 502"
         },
         "javascript": {
           "ok": false,
           "http": 502,
           "bytes": 150,
-          "seconds": 0.84,
+          "seconds": 0.63,
           "detail": "HTTP 502"
         }
       }
@@ -30,18 +30,18 @@
       "up": false,
       "checks": {
         "page": {
-          "ok": false,
-          "http": 502,
-          "bytes": 150,
-          "seconds": 0.91,
-          "detail": "HTTP 502"
+          "ok": true,
+          "http": 200,
+          "bytes": 3175,
+          "seconds": 1.21,
+          "detail": "正常"
         },
         "javascript": {
           "ok": false,
-          "http": 0,
-          "bytes": 0,
-          "seconds": 0,
-          "detail": "未找到主脚本"
+          "http": 206,
+          "bytes": 10290,
+          "seconds": 1.15,
+          "detail": "资源下载不完整或超时"
         }
       }
     }
